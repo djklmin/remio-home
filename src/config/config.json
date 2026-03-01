@@ -14,23 +14,26 @@
   "subTitle": "Hello World !",
   "subTitleConfig": {
     "heart": true,
-    "typing": true,
+    "typing": false,
     "loading": false,
-    "loopTyping": true,
+    "loopTyping": false,
     "shadow": false,
     "typingGap": 10,
     "typingCursor": true,
     "showFrom": false,
     "style": "desc",
-    "desc": "Hello World !",
-    "content": "一个建立于 21 世纪的小站，存活于互联网的边缘;Hello friends!;I Love You So!",
+    "desc": "Hello World !!",
+    "content": "Burying your head in\n\nhard work and silent is\n\ngolden.",
     "gapDelay": 0.05
   },
   "bgConfig": {
+    "bg": "https://djkl.qzz.io/file/1772359094959_mywife.jpg",
+    "mbg": "",
+    "audio": "",
     "bgStyle": "",
     "blur": "sm",
     "cardOpacity": 0.1,
-    "carousel": true,
+    "carousel": false,
     "carouselGap": 5,
     "transitionTime": 0.7,
     "transitionStyle": "default",
@@ -39,7 +42,7 @@
   "layoutConfig": {
     "istTransition": true,
     "gapSize": "sm",
-    "style": "vertical"
+    "style": "horizontal"
   },
   "globalStyle": {
     "fonts": [],
@@ -51,7 +54,7 @@
   "footer": {
     "text": "一个默默无闻的主页",
     "url": "",
-    "ICP": "for me",
+    "ICP": "",
     "MPSICP": "",
     "direction": "col",
     "isExternal": false
@@ -60,27 +63,27 @@
     {
       "title": "Github",
       "url": "https://github.com/djklmin",
-      "icon": "/images/icon/github.png"
+      "icon": "github"
     },
     {
       "title": "QQ",
       "url": "https://user.qzone.qq.com/3139437826",
-      "icon": "/images/icon/qq.png"
+      "icon": "qq"
     },
     {
       "title": "Email",
       "url": "mailto:3139437826@qq.com",
-      "icon": "/images/icon/email.png"
+      "icon": "email"
     },
     {
       "title": "Telegram",
       "url": "https://t.me/mindjkl",
-      "icon": "/images/icon/telegram.png"
+      "icon": "telegram"
     },
     {
       "title": "Twitter",
       "url": "https://x.com/mindjkl/",
-      "icon": "/images/icon/twitter.png"
+      "icon": "x"
     }
   ],
   "sites": [
