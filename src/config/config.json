@@ -8,80 +8,83 @@
     "src": "https://djkl.qzz.io/file/1770081419896_%E5%A4%B4%E5%83%8F.webp",
     "size": 120,
     "round": "full",
-    "hoverAnimate": "",
-    "style": ""
-  },
-  "subTitle": "Hello World !",
-  "subTitleConfig": {
-    "heart": true,
-    "typing": false,
-    "loading": false,
-    "loopTyping": false,
-    "shadow": false,
-    "typingGap": 10,
-    "typingCursor": true,
-    "showFrom": false,
-    "style": "desc",
-    "desc": "Hello World !!",
-    "content": "Burying your head in\n\nhard work and silent is\n\ngolden.",
-    "gapDelay": 0.05
+    "hoverAnimate": "rotate",
+    "style": "glint",
+    "hidden": false,
+    "aloneRight": false
   },
   "bgConfig": {
-    "bg": "https://djkl.qzz.io/file/1772359094959_mywife.jpg",
-    "mbg": "",
-    "audio": "",
+    "bg": ["https://djkl.qzz.io/file/1772359094959_mywife.jpg"],
+    "mbg": [],
     "bgStyle": "",
     "blur": "sm",
-    "cardOpacity": 0.1,
+    "cardOpacity": 0.15,
     "carousel": false,
     "carouselGap": 5,
     "transitionTime": 0.7,
     "transitionStyle": "default",
     "autoAnimate": false
   },
-  "layoutConfig": {
-    "istTransition": true,
-    "gapSize": "sm",
-    "style": "horizontal"
-  },
   "globalStyle": {
-    "fonts": [],
-    "fallback": "",
+    "fonts": [
+      {
+        "name": "Inter",
+        "src": "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      }
+    ],
+    "fallback": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif",
     "primaryColor": "#229fff",
     "theme": "light",
     "weather": true
   },
-  "footer": {
-    "text": "一个默默无闻的主页",
-    "url": "",
-    "ICP": "",
-    "MPSICP": "",
-    "direction": "col",
-    "isExternal": false
+  "layoutConfig": {
+    "gapSize": "md",
+    "style": "horizontal",
+    "istTransition": true
+  },
+  "subTitle": "Hello 这里是min的主页",
+  "subTitleConfig": {
+    "heart": true,
+    "typing": true,
+    "loading": "wave",
+    "loopTyping": false,
+    "shadow": true,
+    "typingGap": 10,
+    "typingCursor": true,
+    "showFrom": false,
+    "style": "desc",
+    "desc": "Hello 这里是min的主页",
+    "content": "min是我自己的一个小网名 你也可以叫我Fly！\n我是一个热爱科技的初中生！\n欢迎你的的到来哦！好运来！✨",
+    "gapDelay": 0.08
   },
   "links": [
     {
       "title": "Github",
+      "color": "#000000",
       "url": "https://github.com/djklmin",
       "icon": "github"
     },
     {
       "title": "QQ",
+      "color": "#dfba00",
       "url": "https://user.qzone.qq.com/3139437826",
       "icon": "qq"
     },
     {
       "title": "Email",
+      "color": "#fd3232",
       "url": "mailto:3139437826@qq.com",
       "icon": "email"
     },
     {
       "title": "Telegram",
+      "color": "#1da1f2",
       "url": "https://t.me/mindjkl",
       "icon": "telegram"
     },
     {
       "title": "Twitter",
+      "color": "#1da1f2",
       "url": "https://x.com/mindjkl/",
       "icon": "x"
     }
@@ -90,44 +93,45 @@
     {
       "title": "博客",
       "url": "https://flyblog.qzz.io/",
-      "icon": "Blog",
+      "icon": "https://djkl.qzz.io/icons/blog.png",
       "desc": ""
     },
     {
       "title": "图床",
       "url": "https://djkl.qzz.io/",
-      "icon": "Cloud",
+      "icon": "https://djkl.qzz.io/icons/cloud.png",
       "desc": ""
     },
     {
       "title": "管理",
       "url": "https://flyminos.qzz.io/",
-      "icon": "Compass",
+      "icon": "https://djkl.qzz.io/icons/admin.png",
       "desc": ""
     },
     {
       "title": "订阅管理",
       "url": "https://st.djkl.qzz.io/",
-      "icon": "Book",
+      "icon": "https://djkl.qzz.io/icons/rss.png",
       "desc": ""
     },
     {
       "title": "烟花！",
       "url": "https://flymin.gt.tc/",
-      "icon": "Fire",
+      "icon": "https://djkl.qzz.io/icons/fire.png",
       "desc": ""
     },
     {
       "title": "站点监测",
       "url": "https://s.flyblog.qzz.io/",
-      "icon": "LaptopCode",
+      "icon": "https://djkl.qzz.io/icons/monitor.png",
       "desc": ""
     }
   ],
   "sitesConfig": {
+    "hidden": false,
     "cardStyle": "default",
-    "hoverBlur": false,
-    "hoverScale": false,
+    "hoverBlur": true,
+    "hoverScale": true,
     "hoverFlip": true,
     "direction": "col",
     "modal": false,
@@ -135,8 +139,9 @@
     "modalTitle": ""
   },
   "socialConfig": {
-    "ripple": true,
-    "loading": false
+    "autoAnimate": true,
+    "loading": "wave",
+    "ripple": true
   },
   "sliders": {
     "data": [],
@@ -144,6 +149,14 @@
     "hidden": true,
     "color": "#fff",
     "column": 2
+  },
+  "footer": {
+    "text": "2026-2026 by min",
+    "url": "",
+    "ICP": "",
+    "MPSICP": "",
+    "direction": "col",
+    "isExternal": false
   },
   "resources": {
     "css": [],
